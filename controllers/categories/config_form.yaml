@@ -1,0 +1,10 @@
+name: Categories
+modelClass: Hessel\Behandelingen\Models\Category
+form: $/hessel/behandelingen/models/category/fields.yaml
+defaultRedirect: hessel/behandelingen/categories
+create:
+    redirect: 'hessel/behandelingen/categories/update/:id'
+    redirectClose: hessel/behandelingen/categories
+update:
+    redirect: hessel/behandelingen/categories
+    redirectClose: hessel/behandelingen/categories

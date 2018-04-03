@@ -1,0 +1,15 @@
+title: Items
+modelClass: Hessel\Behandelingen\Models\Item
+list: $/hessel/behandelingen/models/item/columns.yaml
+recordUrl: 'hessel/behandelingen/items/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: '50'
+showSetup: true
+showCheckboxes: true
+defaultSort:
+    column: item_title
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

@@ -1,0 +1,20 @@
+plugin:
+    name: 'hessel.behandelingen::lang.plugin.name'
+    description: 'hessel.behandelingen::lang.plugin.description'
+    author: Hessel
+    icon: oc-icon-eye-slash
+    homepage: ''
+navigation:
+    behandelingen:
+        label: 'hessel.behandelingen::lang.plugin.name'
+        url: hessel/behandelingen/items
+        icon: icon-eye-slash
+        sideMenu:
+            Behandelingen-overzicht:
+                label: 'hessel.behandelingen::lang.plugin.name'
+                url: hessel/behandelingen/items
+                icon: icon-eye-slash
+            Categorie:
+                label: Categorie
+                url: hessel/behandelingen/categories
+                icon: icon-bookmark

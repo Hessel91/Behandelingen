@@ -1,0 +1,57 @@
+fields:
+    item_title:
+        label: Behandeling
+        span: auto
+        placeholder: ''
+        required: 1
+        type: text
+        commentAbove: 'Naam van de behandeling'
+    category:
+        label: Category
+        nameFrom: group_title
+        descriptionFrom: description
+        emptyOption: 'Klik hier om een categorie te selecteren'
+        span: auto
+        required: 1
+        type: relation
+        commentAbove: 'Geef aan bij welke categorie deze behandeling hoort'
+    item_price:
+        label: Prijs
+        span: auto
+        placeholder: 'Alleen getallen invullen...'
+        required: 1
+        type: number
+        commentAbove: 'Prijs van de behandeling'
+    item_time:
+        label: Tijd
+        span: auto
+        placeholder: 'Alleen getallen invullen...'
+        required: 1
+        type: number
+        commentAbove: 'tijd van de behandeling in minuten'
+    item_description:
+        label: Beschrijving
+        size: small
+        span: auto
+        placeholder: ''
+        required: 1
+        type: textarea
+        commentAbove: 'Vul hier  zo goed mogelijk de beschrijving  in van de behandeling'
+    is_aproved:
+        label: 'Gepubliceerd?'
+        span: auto
+        placeholder: ''
+        default: 1
+        type: switch
+        comment: 'Indien aangevinkt wordt deze behandeling getoond op de website'
+    copy_cat:
+        label: copycat
+        span: auto
+        dependsOn: {  }
+        trigger:
+            action: show
+            field: category
+        preset:
+            field: category
+            type: slug
+        type: text

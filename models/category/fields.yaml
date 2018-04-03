@@ -1,0 +1,33 @@
+fields:
+    group_title:
+        label: Titel
+        span: auto
+        required: 1
+        type: text
+        commentAbove: 'Titel van de categorie'
+    mediafinder1:
+        label: 'Categorie Icon'
+        mode: image
+        prompt: 'Klik hier om een icon te selecteren'
+        imageWidth: '100'
+        imageHeight: '100'
+        span: auto
+        required: 1
+        type: mediafinder
+        commentAbove: 'Alleen zichtbaar op de behandelingen pagina'
+    group_description:
+        label: 'Behandeling categorie intro'
+        size: small
+        span: auto
+        type: textarea
+        commentAbove: 'Vul hier de intro tekst in over de hoofdcategorie, deze komt alleen op de homepagina te staan'
+    mediafinder2:
+        label: 'Behandeling categorie afbeelding'
+        mode: image
+        prompt: 'Klik hier om een afbeelding te selecteren'
+        imageWidth: '300'
+        imageHeight: '200'
+        span: auto
+        required: 1
+        type: mediafinder
+        commentAbove: 'Zicht baar om de homepagina in het klein, en op de behandelingen pagina in het groot.'

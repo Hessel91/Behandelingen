@@ -1,0 +1,6 @@
+columns:
+    group_title:
+        label: Categorie
+        type: text
+        searchable: true
+        sortable: true

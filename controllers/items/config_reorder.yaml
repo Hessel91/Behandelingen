@@ -1,0 +1,5 @@
+title: Items
+modelClass: Hessel\Behandelingen\Models\Item
+nameFrom: item_title
+toolbar:
+    buttons: reorder_toolbar

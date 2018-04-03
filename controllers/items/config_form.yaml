@@ -1,0 +1,11 @@
+name: Items
+modelClass: Hessel\Behandelingen\Models\Item
+form: $/hessel/behandelingen/models/item/fields.yaml
+defaultRedirect: hessel/behandelingen/items
+create:
+    redirect: 'hessel/behandelingen/items/update/:id'
+    redirectClose: hessel/behandelingen/items
+update:
+    redirect: hessel/behandelingen/items
+    redirectClose: hessel/behandelingen/items
+preview: {  }

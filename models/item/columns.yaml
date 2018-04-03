@@ -1,0 +1,25 @@
+columns:
+    item_title:
+        label: Behandeling
+        type: text
+        searchable: true
+        sortable: true
+    category:
+        label: Categorie
+        type: text
+        sortable: false
+        relation: category
+        valueFrom: group_title
+    item_price:
+        label: Prijs
+        type: number
+    created_at:
+        label: created_at
+        type: date
+    updated_at:
+        label: updated_at
+        type: date
+    is_aproved:
+        label: Gepubliceerd
+        type: switch
+        sortable: true
